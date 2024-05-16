@@ -18,5 +18,5 @@ from django.urls import path
 from numeros.views import extraer_numero
 
 urlpatterns = [
-    path("extraer/<int:number>/", extraer_numero),
+    path("extraer/<int:numero>/", extraer_numero),
 ]
